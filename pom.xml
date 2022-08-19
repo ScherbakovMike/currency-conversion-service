@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>ru.mikescherbakov</groupId>
-    <artifactId>currency-conversion-servicce</artifactId>
+    <artifactId>currency-conversion-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>currency-conversion-servicce</name>
+    <name>currency-conversion-service</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -33,16 +33,13 @@
             <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-feign -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
-
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
-
         </dependency>
 
         <dependency>
