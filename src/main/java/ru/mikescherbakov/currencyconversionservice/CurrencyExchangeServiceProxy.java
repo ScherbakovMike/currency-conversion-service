@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 //@FeignClient(name="currency-exchange-service", url="localhost:8000")
 //Enabling feign
 @FeignClient(name = "netflix-zuul-api-gateway-server")
-//enabling ribbon
+//Enabling ribbon
 //@RibbonClient(name = "netflix-zuul-api-gateway-server")
 public interface CurrencyExchangeServiceProxy {
     @GetMapping("/currency-exchange-service/currency-exchange/from/{from}/to/{to}")        //where {from} and {to} are path variable

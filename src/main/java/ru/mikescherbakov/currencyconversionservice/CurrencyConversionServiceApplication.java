@@ -17,7 +17,8 @@ public class CurrencyConversionServiceApplication {
     }
 
     @Bean
-//creating a sampler called always sampler
+    /* Creating a sampler called always sampler
+    */
     public Sampler defaultSampler() {
         return Sampler.ALWAYS_SAMPLE;
     }
